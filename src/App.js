@@ -94,7 +94,7 @@ function App() {
       {
         isLoading
           ? <Loader />
-          : dataSource
+          : data.length
             ? <React.Fragment>
               <Search onSearch={onSearch} />
               <EditorButton onOpenEditor = {onOpenEditor}/>
