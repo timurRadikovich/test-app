@@ -1,4 +1,5 @@
 ﻿import React from 'react'
+import './Table.css'
 
 export default props => (
     <table className="table">

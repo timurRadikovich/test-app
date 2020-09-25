@@ -1,0 +1,6 @@
+﻿th, tr {
+    cursor: pointer;
+}
+th:hover, tr:hover > td {
+    background: ghostwhite;
+}
